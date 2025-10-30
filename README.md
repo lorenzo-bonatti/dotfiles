@@ -1,4 +1,5 @@
 # dotfiles
 
-## Configurations
+### Configurations
 - kitty
+- waybar
