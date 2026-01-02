@@ -28,7 +28,10 @@
     "pulseaudio": {
 	"format": "{icon} {volume}%",
     	"format-muted": " ",
-	"format-icons": [""],
+	"format-icons": {
+	    "default": [""],
+	    "headphone": [""]
+	},
 	"on-click": "pactl set-sink-mute 0 toggle",
 	"tooltip": false
     },
